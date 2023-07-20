@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import './variaveis/_variaveis.scss';
+@import './cabecalho/_cabecalho.scss';
+@import './menu/menu';
+@import './card/card';
+
+body {
+    font-family: $estilo-fonte;
+    background: linear-gradient(180deg, #060047 0%, #03001C 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
