@@ -6,7 +6,9 @@
 
 body {
     font-family: $estilo-fonte;
-    background: linear-gradient(180deg, #060047 0%, #03001C 100%);
+    background-image: url(../img/bg-cyber.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 100vh;
+    display: flex;
 }
