@@ -1,12 +1,11 @@
 @import '../variaveis/_variaveis.scss';
 
 header {
-    height: 200px;
+    width: 250px;
     text-align: center;
     color: #FDFDFD;
     h1 {
-        font-size: 75px;
-        padding-top: 3rem;
-        text-decoration: underline;
+        font-size: 50px;
+        padding: 3rem 1rem;
     }
 }
