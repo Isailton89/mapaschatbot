@@ -1,12 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 header {
-  width: 250px;
   text-align: center;
   color: #FDFDFD;
 }
 header h1 {
   font-size: 50px;
   padding: 3rem 1rem;
+}
+header #versoes {
+  width: 350px;
+  background-color: rgba(0, 217, 255, 0.4509803922);
+  border-radius: 10px;
+  margin: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header #versoes p {
+  font-size: 20px;
+  margin: 1rem;
+  line-height: 30px;
+}
+header #versoes .uso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #00FFD1;
+  margin: 0.5rem 0;
+}
+header #versoes .uso a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+header #versoes .uso .desuso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #EDEEF7;
+  margin: 0.5rem 0;
 }
 
 section {
@@ -20,44 +59,22 @@ section {
 }
 
 .card {
-  height: 250px;
-  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 170px;
   background-color: #00D7FF;
   border-radius: 20px;
-  margin: 0.5rem 0.7rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  cursor: pointer;
-}
-.card img {
-  width: 64px;
-  margin: 1rem;
-}
-.card a {
-  text-transform: uppercase;
-  line-height: 30px;
-  text-decoration: none;
-  color: #FDFDFD;
   margin: 0.5rem 1rem;
-  font-size: 24px;
-  font-weight: bold;
-  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 .card:hover {
-  transform: scale(1.025);
-  box-shadow: 3px 3px 10px 3px rgb(88, 0, 255);
-  transition: 0.2s;
-}
-.card:hover img {
-  content: url(../../img/robo2.svg);
-  width: 54px;
-  transition: 0.2s;
-}
-.card:hover a {
-  color: #5800FF;
-  text-shadow: 3px 3px 10px 3px rgb(88, 0, 255);
-  transition: 0.2s;
+  transform: scale(1.1);
 }
 
 body {
