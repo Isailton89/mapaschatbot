@@ -16,13 +16,13 @@ async function chatsjson() {
 
 		card.addEventListener("click", () => {
 			boxVersoes.innerHTML = ''
+			const textoVersao = document.createElement('p')
+			textoVersao.textContent = `Versões disponiveis do BOT ${item.servico.toUpperCase()}`
+			boxVersoes.appendChild(textoVersao)
 			item.versao.forEach(version => {
 				const cardVersao = document.createElement('div')
-				const textoVersao = document.createElement('p')
 				const nomeVersao = document.createElement('a')
 				const classeVersao = version.estado
-				textoVersao.textContent = `Versões disponiveis do BOT ${item.servico.toUpperCase()}`
-				boxVersoes.appendChild(textoVersao)
 				cardVersao.classList.add(classeVersao)
 				nomeVersao.textContent = version.nome
 				nomeVersao.setAttribute("href", version.link)
@@ -33,4 +33,3 @@ async function chatsjson() {
 		})
 	})
 }
-
