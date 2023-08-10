@@ -37,7 +37,7 @@ header #versoes .uso a {
   color: #000000;
   font-size: 20px;
 }
-header #versoes .uso .desuso {
+header #versoes .desuso {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,6 +46,11 @@ header #versoes .uso .desuso {
   border-radius: 20px;
   background-color: #EDEEF7;
   margin: 0.5rem 0;
+}
+header #versoes .desuso a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
 }
 
 section {
